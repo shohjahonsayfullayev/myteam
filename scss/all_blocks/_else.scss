@@ -1,0 +1,101 @@
+.else {
+    background-color: #012F34;
+    position: relative;
+    .else__wrapper {
+        
+    }
+    .else__container {
+    }
+    .container {
+    }
+    .else__inner {
+        display: flex;
+        margin-bottom: 56px;
+    }
+    .else__righit-wrapper {
+        max-width: 240px;
+        @media only screen and (min-width: 650px) {
+            max-width: 445px;
+        }
+
+    }
+    .else__span-righit {
+        display: block;
+        width: 50px;
+        height: 4px;
+        background-color: #F67E7E;
+        margin-bottom: 32px;
+        margin-top: 36px;
+    }
+    .else__hiddin {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        /* or 100% */
+
+
+        color: #FFFFFF;
+    }
+    .else__lift-wrapper {
+        background-image: url(./../../images/bgmimg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 80px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .else__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .else__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 327px;
+        margin-bottom: 48px;
+
+        @media only screen and (min-width: 650px) {
+            flex-direction: row;
+        }
+    }
+    .else__list-img {
+        margin-bottom: 16px;
+    }
+    .else__hiddin-list {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        /* identical to box height, or 156% */
+
+        text-align: center;
+
+        color: #F67E7E;
+
+    }
+    .else__list-text {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+
+        text-align: center;
+
+        color: #FFFFFF;
+
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    .bgimg {
+    }
+}
